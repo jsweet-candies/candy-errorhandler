@@ -4,6 +4,6 @@ import def.express.express_lib_response.Response;
 
 import def.js.Error;
 public interface LoggingCallback {
-    public void apply(Error err, String str, Request req, Response res);
+    public void $apply(Error err, String str, Request req, Response res);
 }
 
